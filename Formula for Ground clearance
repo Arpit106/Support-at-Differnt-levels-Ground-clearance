@@ -1,0 +1,19 @@
+Formula for ground clearance:
+Total length L = l + q^2*δ^2*l^3/(24*f^2) +h^2/(2*l)
+ Example :
+    
+ An overhead line at a river crossing is upported fro two towers of heights of 30 m and 90 m above water level with a span of 300 m. The weight of  the conductor is 1 kg/m
+ and the working tension is 2000 kg. Determine the clearance between the conductor and the water level mid-way betweenthe towers.
+Solution :
+          
+          c = T/W = 2000/1 = 2000 metres
+          h = 90-30 = 60 metres
+          a = l/2 - ch/l = 150 - 2000*60/300 = -250 metres
+          b = l/2 + ch/l = 150 + 2000*60/300 =  550 metres
+          d1= a^2/2c = 250*250/(2*2000) = 15.625 metres
+          
+Sag at 400 metres ,d2 = 400^2/(2*2000) = 40 metres
+
+Heght of mid- point with respect to tower =  40- 15.625 = 24.375 metres
+
+Therfore, the clearance between the conductor and the water level mid -way  between the towers  will be 30 + 24.375 = 54.375 metres
